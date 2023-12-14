@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body {
   background-color: rgb(17, 22, 33) !important;
+  margin: 0;
+  overflow: hidden;
 }
 
 .navBar {
