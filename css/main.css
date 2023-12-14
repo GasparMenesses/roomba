@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 150px;
+  margin-left: 5px;
 }
 .logo img {
   width: 30vw;
