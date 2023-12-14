@@ -72,7 +72,7 @@ body {
   justify-content: center;
   text-align: center;
   position: relative;
-  top: 330px;
+  top: 280px;
 }
 .nextDate p {
   color: rgba(240, 248, 255, 0.849);
@@ -92,7 +92,7 @@ body {
   justify-content: center;
   text-align: center;
   position: relative;
-  top: 360px;
+  top: 320px;
 }
 .entradas p {
   color: rgba(240, 248, 255, 0.849);
