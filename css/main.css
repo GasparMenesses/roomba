@@ -67,16 +67,6 @@ body {
     transform: scale(1);
   }
 }
-.gorrito {
-  position: relative;
-  top: 303px;
-  left: 204px;
-  width: 90px;
-}
-.gorrito img {
-  width: 90px;
-}
-
 .nextDate {
   display: flex;
   justify-content: center;
