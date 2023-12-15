@@ -1,8 +1,4 @@
 @charset "UTF-8";
-body {
-  background-color: rgb(17, 22, 33) !important;
-}
-
 .navBar {
   display: flex;
   justify-content: center;
@@ -29,6 +25,27 @@ body {
   .navBar ul a li {
     font-size: 3vh;
   }
+}
+
+.footerIndex {
+  display: flex;
+  justify-content: center;
+  margin-top: 420px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.footerPages {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.redes .container .fa-2x {
+  font-size: 20px !important;
+  margin-inline: 3vw;
 }
 
 .logo {
@@ -145,72 +162,44 @@ body {
   margin-top: 25px;
 }
 
-.footerIndex {
+.artistasDiv {
   display: flex;
   justify-content: center;
-  margin-top: 420px;
+  box-shadow: 0 0 20px rgb(14, 16, 18);
+  background-color: rgb(14, 16, 18);
+  border-radius: 10px;
+  margin: 90px 70px;
   position: relative;
-  margin-bottom: 20px;
+  top: 50px;
 }
-
-.footerPages {
-  display: flex;
-  justify-content: center;
-  margin-top: 160px;
-  position: relative;
-  margin-bottom: 20px;
+@media screen and (min-width: 768px) {
+  .artistasDiv {
+    margin: 70px 27%;
+  }
 }
-
-.redes .container .fa-2x {
-  font-size: 20px !important;
-  margin-inline: 3vw;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 80px;
-}
-.title h2 {
-  color: rgba(240, 248, 255, 0.849);
-  font-family: "Noto Sans Bengali", sans-serif;
-  letter-spacing: 6px;
-}
-
-.proximamente {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 250px;
-}
-.proximamente h2 {
+.artistasDiv h2 {
+  font-size: 12px;
   color: rgba(240, 248, 255, 0.849);
   font-family: "Noto Sans Bengali", sans-serif;
   letter-spacing: 2px;
-  font-size: 17px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  width: 80%;
 }
-
-.spinnerPosition {
-  display: flex;
-  justify-content: center;
-  margin: 270px 0;
-}
-.spinnerPosition .spinner {
-  border: 8px solid rgba(243, 243, 243, 0.6588235294);
-  border-top: 8px solid #2f3539;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  animation: spin 1s linear infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
+@media screen and (min-width: 768px) {
+  .artistasDiv h2 {
+    width: 70%;
+    display: block;
+    margin: 40px auto;
   }
-  100% {
-    transform: rotate(360deg);
-  }
+}
+.artistasDiv img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 30px auto 50px auto;
+  border-radius: 10px;
 }
 
 .nosotros {
@@ -258,6 +247,9 @@ body {
   border: 2px solid rgb(120, 122, 126);
   width: 99%;
 }
+.form-div .input-group ::placeholder {
+  color: rgba(24, 24, 24, 0.598);
+}
 
 .btn {
   background-color: rgb(208, 208, 210) !important;
@@ -276,6 +268,22 @@ label {
 }
 label input {
   background-color: rgb(191, 122, 31);
+}
+
+body {
+  background-color: rgb(17, 22, 33) !important;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+}
+.title h2 {
+  color: rgba(240, 248, 255, 0.849);
+  font-family: "Noto Sans Bengali", sans-serif;
+  letter-spacing: 6px;
 }
 
 /*# sourceMappingURL=main.css.map */

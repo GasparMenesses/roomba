@@ -1,0 +1,25 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 26px;
+    margin-right: 20px;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5vw;
+        a {
+            text-decoration: none;
+            li {
+                color: rgba(240, 248, 255, 0.849);
+                font-family: $Fuente;
+                letter-spacing: 2px;
+                font-size: 3vw;
+                @media screen and (min-width: 768px) {
+                    font-size: 3vh;
+                }
+            }
+        }
+    }
+}
